@@ -21,7 +21,10 @@ public class Ejemplo001 {
             cadenaFinal = String.format("%s%d", 
                     cadenaFinal,i);
         }
-        
+        // System.out.printf("%s%d",cadenaFinal,i);
+        /* int valor = 10; (no se puede hacer esto por que 
+        ya esta declarada la variable)*/
+        //valor = 10;
         for (int i = 1; i < 11; i++) {
             cadenaFinal = String.format("%s%d", 
                     cadenaFinal,i);
